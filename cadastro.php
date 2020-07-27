@@ -74,30 +74,30 @@
                         <span class="cor"> *</span>
 
                         <?php
-						if($erro_nome){
-							echo '<font style="color:#FF0000">Nome já cadastrado!</font>';
-						}
-                    ?>
+                          if($erro_nome){
+                            echo '<font style="color:#FF0000">Nome já cadastrado!</font>';
+                          }
+                        ?>
                     </div>
 
                     <div class="teste">
                         <input type="email" class="form-control" id="campo_email" name="email" placeholder="E-mail: " />
                         <span class="cor"> *</span>
                         <?php
-						if($erro_email){
-							echo '<font style="color:#FF0000">E-mail já cadastrado!</font>';
-						}
-					?>
+                          if($erro_email){
+                            echo '<font style="color:#FF0000">E-mail já cadastrado!</font>';
+                          }
+					              ?>
                     </div>
 
                     <div class="teste">
                         <input type="text" class="form-control" id="campo_cpf" name="cpf" placeholder="CPF: " />
                         <span class="cor"> *</span>
                         <?php
-						if($erro_cpf){
-							echo '<font style="color:#FF0000">CPF já cadastrado!</font>';
-						}
-					?>
+                          if($erro_cpf){
+                            echo '<font style="color:#FF0000">CPF já cadastrado!</font>';
+                          }
+					              ?>
                     </div>
 
                     <div class="teste1">

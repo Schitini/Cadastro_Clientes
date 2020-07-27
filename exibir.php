@@ -102,6 +102,9 @@
 <body>
 
     <div class="container">
+    <div class="col-md-12">
+        <a href="cadastro.php">Home</a>
+    </div>
         <div class="col-md-12">
             <div id="clientes" class="list-group">
 
@@ -139,9 +142,9 @@
                 </div>
                 <input type="hidden" id="userId" class="form-control">
             </div>
-            <div class="modal-footer">
-                <a href="exibir.php" id="save" class="btn btn-primary pull-right">Update</a>
-                <a href="exibir.php" class="btn btn-default">Close</a>
+            <div class="modal-footer" style="display:flex; justify-content:center;">
+                <a href="exibir.php" id="save" class="btn btn-primary pull-right">Alterar</a>
+                <a href="exibir.php" class="btn btn-default">Fechar</a>
             </div>
         </div>
     </div>
