@@ -5,3 +5,4 @@ Arquiteturas e bibliotecas usadas: Foram utilizados PHP, HTML, CSS, JavaScript, 
 Banco de Dados: MySQL.
 
 Projeto desenvolvido localmente a partir da ferramenta XAMPP.
+
